@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class SqrtServiceTest {
 
     @Test
-    public void shouldCalcRang1() {
+    public void shouldCalcQuantitySqrsInRange1() {
         SqrtService service = new SqrtService();
 
         int expected = 3;
@@ -16,7 +16,7 @@ public class SqrtServiceTest {
     }
 
     @Test
-    public void shouldCalcRang2() {
+    public void shouldCalcQuantitySqrsInRange2() {
         SqrtService service = new SqrtService();
 
         int expected = 8;
